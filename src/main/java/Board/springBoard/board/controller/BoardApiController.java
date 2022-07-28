@@ -40,5 +40,4 @@ public class BoardApiController {
     public Long save(@PathVariable("id") Long id, @RequestBody BoardRequestDto requestDto) {
         return boardService.update(id, requestDto);
     }
-
 }
