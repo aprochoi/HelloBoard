@@ -12,4 +12,10 @@ public class BoardPageController {
     public String openBoardList() {
         return "board/list";
     }
+
+    //게시글 등록 페이지
+    @GetMapping("/write")
+    public String openBoardWrite() {
+        return "board/write";
+    }
 }
